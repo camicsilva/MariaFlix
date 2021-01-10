@@ -2,7 +2,7 @@ import psycopg2
 import sys
 
 class MariaDB:
-    def __init__(self, user="postgres", psw="33713546", host="127.0.0.1", port="5432",database="MariaFlix", cursor=None, dados=None, column_update=None):
+    def __init__(self, user="postgres", psw="postgres123", host="localhost", port="5432",database="MariaFlix", cursor=None, dados=None, column_update=None):
         self.dados = dados
         self.user = user
         self.psw = psw

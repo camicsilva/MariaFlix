@@ -1,0 +1,394 @@
+{
+	"info": {
+		"_postman_id": "2c5dff99-c591-47e9-8c8b-22e52c8698b5",
+		"name": "MariaFlix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/filmeseseries",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"nome\": \"Titanic\",\r\n        \"tipo\": \"F\"\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 1,\r\n        \"episodio\": 1\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 1,\r\n        \"episodio\": 2\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 1,\r\n        \"episodio\": 3\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 1,\r\n        \"episodio\": 4\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 1,\r\n        \"episodio\": 5\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 2,\r\n        \"episodio\": 1\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 2,\r\n        \"episodio\": 2\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 2,\r\n        \"episodio\": 3\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 2,\r\n        \"episodio\": 4\r\n    },\r\n    {\r\n        \"nome\": \"Grey's Anatomy\",\r\n        \"tipo\": \"S\",\r\n        \"temporada\": 2,\r\n        \"episodio\": 5\r\n    },\r\n    {\r\n        \"nome\": \"Avengers\",\r\n        \"tipo\": \"F\"\r\n    },\r\n    {\r\n        \"nome\": \"Velozes e Furiosos\",\r\n        \"tipo\": \"F\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/filmeseseries",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filmeseseries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/usuarios",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf\": 89487634890\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/usuarios",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf\": 43919392825,\r\n        \"nome\": \"Gustavo Bispo\"\r\n    },\r\n    {\r\n        \"cpf\": 12234567849,\r\n        \"nome\": \"Jose Santos\",\r\n        \"telefone\":\"16 33650978\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/usuarios",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf\":15082107809,\r\n        \"nome\":\"Carlos Careca\",\r\n        \"telefone\":\"16 986886525\",\r\n        \"nascimento\":\"03/10/1971\"\r\n        },\r\n    {\r\n        \"cpf\":33305329081,\r\n        \"nome\":\"Maria Eduarda\",\r\n        \"telefone\":\"16 33672987\",\r\n        \"nascimento\":\"10/07/2003\"\r\n        }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/filmeseseries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/filmeseseries",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filmeseseries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/filmeseseries",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 77,\r\n        \"nome\": \"Titanic\",\r\n        \"tipo\": \"F\"\r\n    },\r\n    {\r\n        \"id\": 89,\r\n        \"nome\": \"Crepusculo\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/filmeseseries",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filmeseseries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/assistidos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf_pessoa\": 43919392825,\r\n        \"id_filmes_series\": 80,\r\n        \"data_assistido\": \"02/01/2021\"\r\n    },\r\n    {\r\n        \"cpf_pessoa\": 43919392825,\r\n        \"id_filmes_series\": 81,\r\n        \"data_assistido\": \"02/01/2021\"\r\n    },\r\n    {\r\n        \"cpf_pessoa\": 43919392825,\r\n        \"id_filmes_series\": 82,\r\n        \"data_assistido\": \"02/01/2021\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/assistidos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"assistidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/assistidos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/assistidos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"assistidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/filmeseseries",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 89\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/filmeseseries",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filmeseseries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/filmes_assistidos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf_pessoa\": 33305329081\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/filmes_assistidos",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"filmes_assistidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/top_5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"mes\": \"12\",\r\n        \"ano\": \"2020\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/top_5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"top_5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/temporadas_completas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cpf_pessoa\": 41596184809\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/temporadas_completas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"temporadas_completas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
